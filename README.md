@@ -1,55 +1,38 @@
-# Live Preview: https://drama-movie-sk5q.vercel.app/
+# 🎬 Drama Movies — React Movies App
 
-Coded by - [Eslam  Raafat]
-![](/Capture.png)
+A movies web app built with React for browsing titles, viewing ratings and watching trailers.
 
-# Getting Started with Create React App
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨ Features
 
-Currently, two official plugins are available:
+- 🎞️ Browse movies with data fetched via Axios
+- ⭐ Star ratings and circular progress score indicators
+- ▶️ Embedded trailers with React Player
+- 🖼️ Image lightbox and Swiper sliders
+- 🧭 Multi-page navigation with React Router
+- 📱 Responsive UI with React Bootstrap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for 
+## 🛠 Tech Stack
 
-## Available ScriptsFast Refresh
+| Area | Tools |
+|---|---|
+| Library | React |
+| Routing | React Router |
+| UI | Bootstrap, React Bootstrap, React Icons |
+| Data | Axios |
+| Media | React Player, Swiper, Lightbox |
 
-In the project directory, you can run:
+## 🚀 Getting Started
 
-### `npm run dev`
+```bash
+git clone https://github.com/Eslamraafat1/Drama-Movies.git
+cd Drama-Movies
+npm install
+npm start
+```
 
+## 👤 Author
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Deployment
-
-This section has moved here: [in the vercel ]
-
-## About the project 
-
-the app is Drama App and used it a lot of liberari to satisfy  all user inerface 
-
-### Frontend Tools
-
-React 
-axios  => to fetch Data
-bootstrap , lightbox , react-circular-progressbar , swiper , react-star-ratings   => this to make simple UI
-### Backend  Tools
-
-i used ready Api from T M D B database [https://developer.themoviedb.org/reference/intro/getting-started]
-
+**Eslam Raafat** — Frontend Developer & QA Engineer
+[LinkedIn](https://www.linkedin.com/in/eslamraafat-dev) · [GitHub](https://github.com/Eslamraafat1)

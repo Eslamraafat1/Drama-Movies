@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   createBrowserRouter,
   createHashRouter,
@@ -21,7 +21,6 @@ import PHOTOS from "./components/PHOTOS/PHOTOS";
 import VideoView from "./components/videoView/VideoView";
 import All from "./pages/All";
 import LoadingPagination from "./components/skilton/Loadingpagination/LoadingPagination";
-import {initLightboxJS} from 'lightbox.js-react'
 import 'lightbox.js-react/dist/index.css'
 
 const router = createHashRouter(
@@ -54,9 +53,6 @@ const router = createHashRouter(
 );
 
 export default function App() {
-  useEffect(() => {
-    initLightboxJS("Insert your License Key here", "Insert plan type here");
-  }, []);
   return (
     <div className="App">
       <RouterProvider router={router} fallbackElement={<LoadingPagination />} />

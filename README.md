@@ -150,9 +150,11 @@ src/
 git clone https://github.com/Eslamraafat1/Drama-Movies.git
 cd Drama-Movies
 npm install
-echo "VITE_APP_TMDB_TOKEN=<your TMDB read access token>" > .env
-npm run dev        # http://localhost:5173
+cp .env.example .env   # then paste your token into VITE_APP_TMDB_TOKEN
+npm run dev            # http://localhost:5173
 ```
+
+Create a free TMDB account, open **Settings > API** (https://www.themoviedb.org/settings/api) and copy the **API Read Access Token** into `.env`. The `.env` file is git-ignored; never commit it. Note that Vite inlines `VITE_*` variables into the client bundle, so the token is visible in the deployed site: use a read-only TMDB token.
 
 | Command | What it does |
 | --- | --- |
